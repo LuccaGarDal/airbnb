@@ -1,3 +1,4 @@
+import Acomodacao from "@/widgets/Acomodacoes";
 import BarraPesquisa from "@/widgets/BarraPesquisa";
 import BarraSuperior from "@/widgets/BarraSuperior";
 import NavegacaoAbasHorizontal from "@/widgets/NavegacaoAbasHorizontal";
@@ -12,10 +13,11 @@ export default function Home() {
 
       </header>
 
-      <hr className="py-2" />
+      <hr className="my-3 text-gray-300" />
 
       <main className="container mx-auto">
         <NavegacaoAbasHorizontal />
+        <Acomodacao />
       </main>
 
 
