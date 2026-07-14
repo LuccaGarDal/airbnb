@@ -18,7 +18,7 @@ const BarraSuperior = () => {
           icone={(
             <IconUserCircle aria-label="Imagem de usuário"
             size={20}/>
-          )}>
+            )}>
             Entrar
           </BotaoIcone>
 
