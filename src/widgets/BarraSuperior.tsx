@@ -5,7 +5,7 @@ import { IconUserCircle } from "@tabler/icons-react"
 
 const BarraSuperior = () => {
     return (
-        <div className="container mx-auto py-6 flex justify-between items-center">
+        <div className="py-6 flex justify-between items-center">
 
           <Logo />
 

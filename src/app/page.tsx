@@ -1,19 +1,28 @@
 import BarraPesquisa from "@/widgets/BarraPesquisa";
 import BarraSuperior from "@/widgets/BarraSuperior";
+import NavegacaoAbasHorizontal from "@/widgets/NavegacaoAbasHorizontal";
 
 export default function Home() {
   return (
     <>
-      <div>
+      <header className="container mx-auto ">
 
         <BarraSuperior />
         <BarraPesquisa />
+        <NavegacaoAbasHorizontal />
 
-      </div>
+      </header>
+
+      <hr className="py-3"/>
+
+      <main className="container mx-auto border-green-500 border-2 mt-10">
+
+      </main>
 
 
-      <div className="border-green-500 border-2 mt-10">Área conteúdos</div>
-      <div className="border-purple-500 border-2">Rodapé</div>
+      <footer className="container mx-auto border-purple-500 border-2">
+
+      </footer>
     </>
   );
 }
