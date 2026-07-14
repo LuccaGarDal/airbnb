@@ -9,18 +9,17 @@ export default function Home() {
 
         <BarraSuperior />
         <BarraPesquisa />
-        <NavegacaoAbasHorizontal />
 
       </header>
 
-      <hr className="py-3"/>
+      <hr className="py-2" />
 
-      <main className="container mx-auto border-green-500 border-2 mt-10">
-
+      <main className="container mx-auto">
+        <NavegacaoAbasHorizontal />
       </main>
 
 
-      <footer className="container mx-auto border-purple-500 border-2">
+      <footer className="container mx-auto">
 
       </footer>
     </>
