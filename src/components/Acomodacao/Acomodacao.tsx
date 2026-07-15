@@ -16,7 +16,15 @@ const Acomodacao = ({children, local, anfitriao, data, preco, avaliacao, preferi
         <figure className="relative">
 
             <div className="absolute p-2 w-full flex flex-row justify-between items-center">
-                <span className="bg-white rounded-full px-4 py-1 font-semibold">Preferido dos hóspedes</span>
+
+                <div>
+                    {preferidoHospedes && (
+                        <span className="bg-white rounded-full px-4 py-1 font-semibold">
+                            Preferido dos hóspedes
+                        </span>
+                    )}
+                </div>
+
                 <IconHeartFilled className="stroke-white opacity-80"
                 aria-label="Imagem de usuário"
                 size={30}

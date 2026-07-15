@@ -2,6 +2,7 @@ import Acomodacao from "@/widgets/Acomodacoes";
 import BarraPesquisa from "@/widgets/BarraPesquisa";
 import BarraSuperior from "@/widgets/BarraSuperior";
 import NavegacaoAbasHorizontal from "@/widgets/NavegacaoAbasHorizontal";
+import Rodape from "@/widgets/Rodape";
 
 export default function Home() {
   return (
@@ -13,15 +14,15 @@ export default function Home() {
 
       </header>
 
-      <hr className="my-3 text-gray-300" />
+      <hr className="my-6 text-gray-300" />
 
       <main className="container mx-auto">
         <NavegacaoAbasHorizontal />
         <Acomodacao />
       </main>
 
-
-      <footer className="container mx-auto">
+      <footer className="bg-gray-300">
+        <Rodape />
 
       </footer>
     </>
