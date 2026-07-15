@@ -13,7 +13,7 @@ const BarraPesquisa = () => {
             <button className="
             bg-red-500 rounded-full p-2
             ">
-                <IconSearch aria-label="Imagem de usuário"
+            <IconSearch aria-label="Imagem de usuário"
             size={32}
             color="white"/>
             </button>

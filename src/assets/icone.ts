@@ -1,1 +1,1 @@
-export { IconUserCircle, IconSearch, IconAdjustmentsHorizontal } from '@tabler/icons-react';
+export { IconUserCircle, IconSearch, IconAdjustmentsHorizontal, IconStarFilled, IconHeartFilled } from '@tabler/icons-react';
