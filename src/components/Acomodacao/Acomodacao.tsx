@@ -1,4 +1,4 @@
-import { IconHeartFilled, IconStarFilled } from "@/assets/icone"
+import { IconHeartFilled, IconStarFilled } from "@/assets/icones"
 import React from "react"
 
 interface AcomodacaoProps {

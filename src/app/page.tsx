@@ -23,7 +23,6 @@ export default function Home() {
 
       <footer className="bg-gray-300">
         <Rodape />
-
       </footer>
     </>
   );
