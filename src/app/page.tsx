@@ -11,7 +11,6 @@ export default async function Home() {
 
   return (
     <>
-      {dados.accommodation[0].title}
       <header className="container mx-auto ">
         <BarraSuperior />
         <BarraPesquisa />
@@ -21,8 +20,8 @@ export default async function Home() {
       <hr className="my-6 text-gray-300" />
 
       <main className="container mx-auto">
-        <NavegacaoAbasHorizontal />
-        <Acomodacoes />
+        <NavegacaoAbasHorizontal icons={dados.icons}/>
+        <Acomodacoes accommodation={dados.accommodation} />
       </main>
 
       <footer className="bg-gray-300">
