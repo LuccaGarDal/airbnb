@@ -1,3 +1,4 @@
+import { Testimonials } from "@/types/AirbnbDados"
 import { IconStarFilled } from "@tabler/icons-react"
 import Image from "next/image"
 
@@ -34,7 +35,14 @@ const depoimentos = [
         }
 ]
 
-const AcomodacoesDepoimentos = () => {
+interface AcomodacaoDepoimentosProps {
+    testimonials : Testimonials[]
+}
+
+const AcomodacoesDepoimentos = ( props: AcomodacaoDepoimentosProps ) => {
+
+    const depoimentos = props.testimonials
+
     return (
         <div className="w-full py-4">
             <h2 className="font-semibold text-xl">Depoimentos</h2>
